@@ -1,0 +1,19 @@
+.anuncio{
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    padding-top: 7rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen  and (max-width:600px){
+    .anuncio{
+        display:flex;
+        position: relative;
+        flex-direction: column;
+        padding-top: 1rem;
+        gap: 1rem;
+    }
+    
+}

@@ -1,0 +1,46 @@
+main .grid-1 {
+  gap: 2rem;
+}
+
+main .grid-1 a:nth-child(1) {
+  grid-row: span 4;
+}
+main > .grid-1 > a:not(:nth-child(1)) {
+  grid-column: 2;
+  height: fit-content;
+  @media (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+  }
+}
+
+main > .grid-1 > a:nth-child(1) h1 {
+  @apply font-semibold text-[2rem] md:text-[3rem] 2xl:text-[4rem] leading-[1.215] lg:mb-[1.2rem];
+}
+main > .grid-1 > a:nth-child(1) p {
+  @apply leading-[1.315] text-[1.4rem] lg:text-[2rem] max-lg:hidden;
+}
+main > .grid-1 > a:not(:nth-child(1)) h1 {
+  @apply font-semibold text-[2rem] md:text-[3rem] lg:text-[1.5rem] leading-[1.4];
+}
+
+.grid-2 {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+@media ((min-width: 1024px) and (max-width: 1440px)) {
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+  }
+}
+@media (min-width: 1440px) {
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 0.8fr 0.6fr;
+  }
+}
