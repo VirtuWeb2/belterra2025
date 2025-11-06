@@ -11,7 +11,7 @@ const Politica = ({news, loadingNews, tvPosts, loadingTvPosts}) => {
   return (
     <>
       <Helmet>
-        <title>Política | É Notícia Abaetetuba</title>
+        <title>Política | É Notícia Belterra</title>
       </Helmet>
       <Header />
       <Ad/>

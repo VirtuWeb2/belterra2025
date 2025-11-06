@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className=" mt-auto footer">
       <div className="h-[1px] bg-neutral-800"></div>
       <div className="container-width flex flex-col items-center py-[4rem] ">
-        <img src="/images/logo.png" width={128} className="mb-[2rem]" alt="" />
+        <img src="/images/BELTERRA.png" width={128} className="mb-[2rem]" alt="" />
         <div className="flex text-neutral-50 text-[2rem] font-semibold gap-[1.2rem] mb-[.8rem]">
           {/* <span>Termos de uso</span> */}
           <Link to={"/anuncie-aqui"}>Anuncie aqui</Link>

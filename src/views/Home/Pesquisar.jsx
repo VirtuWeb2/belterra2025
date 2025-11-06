@@ -19,7 +19,7 @@ const Pesquisar = ({ news, loadingNews, tvPosts, loadingTvPosts }) => {
     return (
       <>
         <Helmet>
-          <title>Pesquisar | É Notícia Abaetetuba</title>
+          <title>Pesquisar | É Notícia Belterra</title>
         </Helmet>
         <Header />
         <div

@@ -17,7 +17,7 @@ const Home = ({ news, loadingNews, loadingTvPosts, tvPosts }) => {
     return (
       <>
         <Helmet>
-          <title>Início | É Notícia Abaetetuba</title>
+          <title>Início | É Notícia Belterra</title>
           <link
             rel="preload"
             href={news && news[0].cover}
@@ -68,7 +68,7 @@ const Home = ({ news, loadingNews, loadingTvPosts, tvPosts }) => {
           {loadingNews && <Loader />}
         </div>
         {/* <Municipais /> */}
-            <CarouselLinks/>
+            {/* <CarouselLinks/> */}
         <Footer />
       </>
     );
